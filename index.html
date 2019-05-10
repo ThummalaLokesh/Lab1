@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <hr>
+        <h1>ROCK PAPER SCISSORS GAME</h1>
+        <hr>
+      </header>
+
+        <mark > Note: "Your score will be increased by 5 for winning, decreased by 1 for losing and 0 for a tie"</mark>
+
+      <section>
+        <h2 id="headline">Are You Ready to Start?</h2>
+        
+        <div>
+          <section id="question"></section>
+        </div>
+      </section>
+
+      <section>
+
+        <div id="inputDiv">  <input type="text" id="userInput" style="display:none;" placeholder="All Lowercase"></div>
+        <div id="scoreMessage"></div>
+
+        <button id ="startButton"> Start </button>
+        <button id="subButton" style="display:none;"> Submit </button>
+        
+        <button id="resetButton" style="display:none;">Reset</button>
+      </section>
+      
+        
+    <br>
+
+
+    <div >
+        <h3>Scoreboard: </h3>
+        <div id="score">0</div>
+    </div><br>
+    <section>
+    <button id="stopButton" style="display:none;"> Stop Playing</button>
+    </section>
+    </div>
+
+   <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>
